@@ -1,13 +1,13 @@
 //
-//  Deck.h
+//  CardGame.h
 //  Matchismo
 //
-//  Created by Dennis on 3/20/13.
+//  Created by Dennis on 4/6/13.
 //  Copyright (c) 2013 Boston University. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface Deck : NSObject
+@interface CardGame : NSObject
 
 @end

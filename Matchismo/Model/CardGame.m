@@ -1,13 +1,13 @@
 //
-//  Deck.m
+//  CardGame.m
 //  Matchismo
 //
-//  Created by Dennis on 3/20/13.
+//  Created by Dennis on 4/6/13.
 //  Copyright (c) 2013 Boston University. All rights reserved.
 //
 
-#import "Deck.h"
+#import "CardGame.h"
 
-@implementation Deck
+@implementation CardGame
 
 @end
