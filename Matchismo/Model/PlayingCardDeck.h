@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Deck.h"
-
+#import "PlayingCard.h"
 @interface PlayingCardDeck : NSObject
+
+- (PlayingCard *) drawCard;
 
 @end

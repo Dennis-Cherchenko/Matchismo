@@ -10,4 +10,37 @@
 
 @implementation PlayingCard
 
+- (NSString *)contents{
+    NSLog([self.rank stringByAppendingString:self.suit]) ;
+    return [self.rank stringByAppendingString:self.suit];
+    
+}
+
++ (NSArray *)ranks{
+    return @[@"A", @"2", @"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];
+}
+
+
+- (void)setRank:(NSString *)rank{
+    if([[PlayingCard ranks] containsObject: rank]){
+        _rank = rank;
+    }
+}
+
+
++ (NSArray *)suits{
+    return @[@"♠", @"♣", @"♥",@"♦"];
+    
+}
+
+- (void)setSuit:(NSString *)suit{
+    if([[PlayingCard suits] containsObject: suit]){
+        _suit = suit;
+    }
+}
+
+
+
+
+
 @end
