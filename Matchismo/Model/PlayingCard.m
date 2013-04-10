@@ -9,12 +9,31 @@
 #import "PlayingCard.h"
 
 @implementation PlayingCard
+- (id)init{
+    self = [super init];
+    if(self){
+        self.playable = YES;
+        self.flipped = NO;
+    }
+    
+    return self;
+}
 
 - (NSString *)contents{
-    NSLog([self.rank stringByAppendingString:self.suit]) ;
     return [self.rank stringByAppendingString:self.suit];
     
 }
+
+- (NSUInteger)matches:(PlayingCard *)otherCard{
+    if([self.rank isEqualToString:otherCard.rank]){
+        return 13;
+    }else if([self.suit isEqualToString:otherCard.suit]){
+        return 4;
+    }else{
+        return 0;
+    }
+}
+
 
 + (NSArray *)ranks{
     return @[@"A", @"2", @"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];
