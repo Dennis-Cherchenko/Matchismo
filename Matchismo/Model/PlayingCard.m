@@ -28,7 +28,7 @@
     if([self.rank isEqualToString:otherCard.rank]){
         return 13;
     }else if([self.suit isEqualToString:otherCard.suit]){
-        return 4;
+        return 0;
     }else{
         return 0;
     }
