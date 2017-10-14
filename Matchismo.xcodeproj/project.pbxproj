@@ -24,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28ABCAC1172EAEBB00F54535 /* Matchismo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Matchismo-Prefix.pch"; sourceTree = "<group>"; };
 		954E65F916F9FC2300C9097A /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954E65FC16F9FC2300C9097A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		954E65FE16F9FC2300C9097A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,7 +32,6 @@
 		954E660416F9FC2300C9097A /* Matchismo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Matchismo-Info.plist"; sourceTree = "<group>"; };
 		954E660616F9FC2300C9097A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		954E660816F9FC2300C9097A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		954E660A16F9FC2300C9097A /* Matchismo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Matchismo-Prefix.pch"; sourceTree = "<group>"; };
 		954E660B16F9FC2300C9097A /* CardGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameAppDelegate.h; sourceTree = "<group>"; };
 		954E660C16F9FC2300C9097A /* CardGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameAppDelegate.m; sourceTree = "<group>"; };
 		954E660E16F9FC2300C9097A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -109,10 +109,10 @@
 				954E660416F9FC2300C9097A /* Matchismo-Info.plist */,
 				954E660516F9FC2300C9097A /* InfoPlist.strings */,
 				954E660816F9FC2300C9097A /* main.m */,
-				954E660A16F9FC2300C9097A /* Matchismo-Prefix.pch */,
 				954E660E16F9FC2300C9097A /* Default.png */,
 				954E661016F9FC2300C9097A /* Default@2x.png */,
 				954E661216F9FC2300C9097A /* Default-568h@2x.png */,
+				28ABCAC1172EAEBB00F54535 /* Matchismo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
